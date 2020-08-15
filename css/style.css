@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*********************************
+            Header
+*********************************/
+
+header {
+    background-color: black;
+    padding: 15px 75px;
+    position: fixed;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-container {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+.top-nav {
+    display: inline-block;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
+    padding-left: 0;
+    width: 100%;
+}
+
+.top-nav li {
+    display: inline-block;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    text-decoration: none;
+}
+
+.btn-top {
+    background: hsl(136, 65%, 51%);
+    background-image: -webkit-linear-gradient(top, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -moz-linear-gradient(top, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -ms-linear-gradient(top, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -o-linear-gradient(top, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: linear-gradient(to bottom, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.btn-top:hover {
+    background: hsl(136, 65%, 51%);
+    text-decoration: none;
+}
+
+
+/***********************************
+         Second Section
+***********************************/
+
+.second-section {
+    background-color: blue;
+    padding: 0 100px;
+    /* max-height: 800px; */
+    margin-top: 60px;
+}
+
+.text-area {
+    width: 50%;
+    padding-right: 200px;
+}
+
+.promo-image-container {
+    position: absolute;
+}
+
+
+/***********************************
+        Third Section
+***********************************/
+
+.third-section {
+    background-color: hsl(220, 16%, 96%);
+    padding: 0 10%;
+}
+
+.third-section h2 {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+
+/*****************************************
+
+                    Cards
+
+******************************************/
